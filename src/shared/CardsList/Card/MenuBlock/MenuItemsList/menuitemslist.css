@@ -1,0 +1,64 @@
+.menuItemsList {
+    padding: 0 20px;
+}
+
+.menuItem {
+    padding: 12px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.menuItem > svg + span {
+    margin-left: 7px;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: var(--greyEC);
+}
+
+.commentsButton {
+    display: none;
+}
+
+@media all and (min-width: 1024px) {
+    .commentsButton {
+        display: flex;
+        align-items: normal;
+    }
+
+    .commentsButton * {
+        color: var(--greyC4);
+    }
+}
+
+.shareButton {
+    display: none;
+}
+
+@media all and (min-width: 1024px) {
+    .shareButton {
+        display: flex;
+        align-items: normal;
+    }
+
+    .shareButton * {
+        color: var(--greyC4);
+    }
+}
+
+.saveButton {
+    display: none;
+}
+
+@media all and (min-width: 1024px) {
+    .saveButton {
+        display: flex;
+        align-items: normal;
+    }
+
+    .saveButton * {
+        color: var(--greyC4);
+    }
+}
